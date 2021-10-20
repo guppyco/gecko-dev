@@ -19,3 +19,20 @@ Nightly development builds can be downloaded from:
 
 Keep in mind that nightly builds, which are used by Firefox developers for
 testing, may be buggy.
+
+Setup on MacOS:
+
+    - Clone this repository
+    - `./mach bootstrap` --> Choose a build type
+    - `./mach build`
+    - `./mach run`
+
+Setup on Linux:
+
+    - Clone this repository
+    - Add `mozilla-unified` repository: `git remote add hg hg::https://hg.mozilla.org/mozilla-unified`
+    - Install `git-cinnabar`: https://github.com/glandium/git-cinnabar/ (see the Setup section in the README — essentially just clone it somewhere, put the path to your local clone in your PATH, then install the native helper, and update the config if you wan to use Python3)
+    - Pull the files from `mozilla-unified`: `git pull hg`
+    - `./mach bootstrap` --> Choosing a build type
+    - `./mach build`
+    - `./mach run`
