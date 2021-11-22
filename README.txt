@@ -20,6 +20,8 @@ Nightly development builds can be downloaded from:
 Keep in mind that nightly builds, which are used by Firefox developers for
 testing, may be buggy.
 
+*Note:* Before building, add `ac_add_options --with-branding=browser/branding/guppy` to your `mozconfig` file
+
 Setup on MacOS:
 
     - Clone this repository
