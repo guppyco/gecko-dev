@@ -22,5 +22,5 @@
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Nightly, Beta, etc.).
 -brand-product-name = Guppy
--vendor-short-name = Mozilla
-trademarkInfo = Guppy and the Guppy logos are trademarks of the Mozilla Foundation.
+-vendor-short-name = Guppy
+trademarkInfo = Guppy and the Guppy logos are trademarks of the Guppy Foundation.

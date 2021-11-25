@@ -10,8 +10,8 @@
 # instead of BrandFullName and typically should not be modified.
 !define BrandFullNameInternal "Guppy"
 !define BrandFullName         "Guppy"
-!define CompanyName           "Mozilla Corporation"
-!define URLInfoAbout          "https://www.mozilla.org"
+!define CompanyName           "Guppy Corporation"
+!define URLInfoAbout          "https://guppy.co"
 !define URLUpdateInfo         "https://www.mozilla.org/firefox/${AppVersion}/releasenotes"
 !define HelpLink              "https://support.mozilla.org"
 
